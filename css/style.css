@@ -1,0 +1,166 @@
+/* ***************************************
+Template Name: NEXCENT || IT Business Organization HTML Template
+Author: Ramen Biswas
+Author Email: printrb72@gmail.com
+website: http://www.devsramen.com/
+Version: 1.0
+Description: NEXCENT is Multi Page HTML Template designed for IT Business Organization. It is designed with a Unique and clean & modern Look. This template is designed based on Bootstrap5 Grid System. You can customize it very easily to fit your needs. NEXCENT is a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones, and small mobile devices.
+***************************************
+
+CSS TABLE OF CONTENTS
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE
+03. ABOUT US PAGE
+04. MENU PAGE
+05. CONTACT PAGE
+06. BLOG DETAILS PAGE
+07. MENU DETAILS PAGE
+08. CART VIEW PAGE
+09. CHECKOUT PAGE
+10. SIGN IN PAGE
+11. PAYMENT PAGE
+12. FAQ PAGE
+13. TERMS AND CONDITION PAGE
+14. 404 PAGE
+15. DASHBOARD PAGE
+
+
+/*================================
+    GLOBAL CSS START
+================================*/
+html, body{
+    scroll-behavior: smooth !important;
+}
+
+/* ======== Reset Code Started ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--colorPrar);
+    /* overflow-x: hidden; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--colorHead);
+}
+
+p,
+a,
+span {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: var(--colorPrar);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--colorPrar);
+    text-transform: capitalize;
+}
+
+/* ======== Reset Code Ended ========= */
+
+/* ======== Common CSS Code Start ========= */
+:root{
+    --colorHead: #4D4D4D;
+    --colorPrar : #717171;
+    --colorTheam : #4CAF4F;
+}
+.commonBtn{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--colorTheam);
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.commonBtn:hover{
+    color: #fff;
+    background-color: var(--colorTheam);
+}
+/* ======== Common CSS Code Ended ========= */
+
+/*================================
+    GLOBAL CSS START
+================================*/
+#header{
+    padding: 0 10%;
+}
+.navItem{
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #18191F;
+}
+.navItem.active{
+    font-weight: 500;
+}
+
+.navMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+/*================================
+    GLOBAL CSS ENDED
+================================*/
