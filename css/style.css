@@ -82,9 +82,9 @@ li {
 }
 
 img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 input,
@@ -123,6 +123,7 @@ textarea::placeholder {
     color: var(--colorTheam);
     text-transform: capitalize;
     padding: 10px 20px;
+    border: 1px solid var(--colorTheam);
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -138,6 +139,11 @@ textarea::placeholder {
     color: #fff;
     background-color: var(--colorTheam);
 }
+.sectionHeader{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--colorHead);
+}
 /* ======== Common CSS Code Ended ========= */
 
 /*================================
@@ -150,9 +156,15 @@ textarea::placeholder {
     font-weight: 400;
     text-transform: capitalize;
     color: #18191F;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
-.navItem.active{
+.navItem:hover{
     font-weight: 500;
+    color: var(--colorTheam);
 }
 
 .navMain{
@@ -161,6 +173,179 @@ textarea::placeholder {
     align-items: center;
     gap: 50px;
 }
+/*================================
+    GLOBAL CSS ENDED
+================================*/
+
+/*================================
+    BANNER CSS START
+================================*/
+#banner{
+    background-color: #F5F7FA;
+}
+.bannerTitle{
+    font-size: 64px;
+    font-weight: 700;
+}
+.bannerTitle span{
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--colorTheam);
+}
+.bannerImage{
+    width: 390px;
+}
+
+/*================================
+    BANNER CSS ENDED
+================================*/
+
+/*================================
+    OUR CLIENTS CSS START
+================================*/
+.clientLogo{
+    width: 50px;
+    height: 50px;
+}
+/*================================
+    OUR CLIENTS CSS ENDED
+================================*/
+
+/*================================
+    SYSTEM CSS START
+================================*/
+#system .card{
+    width: 300px;
+}
+.systemCardImage{
+    width: 65px;
+    height: 56px;
+}
+
+/*================================
+    SYSTEM CSS ENDED
+================================*/
+
+/*================================
+    PIXELGRADE CSS START
+================================*/
+.pixelgradeImage{
+    width: auto;
+    height: 328px;
+}
+
+/*================================
+    PIXELGRADE CSS ENDED
+================================*/
+
+/*================================
+    HELP CSS START
+================================*/
+#help{
+    background: #F5F7FA;
+}
+.sectionHeader span{
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--colorTheam);
+}
+.helpIcon{
+    width: 230px;
+}
+.helpImage{
+    width: 48px;
+    object-fit: cover;
+}
+
+/*================================
+    HELP CSS ENDED
+================================*/
+
+/*================================
+    DESIGN CSS START
+================================*/
+.designImage{
+    width: auto;
+    height: 428px;
+}
+.designPara{
+    text-align: justify;
+}
+
+/*================================
+    DESIGN CSS ENDED
+================================*/
+
+/*================================
+    COMMENTS CSS START
+================================*/
+.commentsImage{
+    margin: 0 auto;
+    width: 326px;
+    height: 326px;
+}
+.customersLogoWrapper{
+    width: 65%;
+}
+.tim,
+.meetCustomer{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--colorTheam);
+}
+.meetCustomer i{
+    margin-left: 5px;
+}
+/*================================
+    COMMENTS CSS ENDED
+================================*/
+
+/*================================
+    MARKETING CSS START
+================================*/
+.marketingPara{
+    padding: 5px 350px;
+}
+.card-body {
+    height: 67px;
+    position: relative;
+}
+.card{
+    border: 0;
+}
+.card_Body_Wrapper {
+    width: 90%;
+    background: #F5F7FA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: -147%;
+    transform: translateX(-50%);
+}
+.mar_cardBodyTitle{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--colorPrar);
+}
+/*================================
+    MARKETING CSS ENDED
+================================*/
+
+
+
+
+
+/*================================
+    GLOBAL CSS START
+================================*/
+
+
 /*================================
     GLOBAL CSS ENDED
 ================================*/
