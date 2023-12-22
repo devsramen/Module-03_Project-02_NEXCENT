@@ -314,7 +314,7 @@ textarea::placeholder {
 .marketingPara{
     padding: 5px 350px;
 }
-.card-body {
+#marketing .card-body {
     height: 85px;
     position: relative;
 }
