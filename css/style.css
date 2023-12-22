@@ -170,7 +170,7 @@ textarea::placeholder {
     -o-transition: all 0.3s linear;
 }
 .navItem:hover{
-    font-weight: 500;
+    font-weight: 400;
     color: var(--colorTheam);
 }
 
